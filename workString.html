@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let str="Tôi yêu ngôn ngữ lập trình javascript";
+    let regExpWork=/[a,ậ,á,à,ạ,ã,ấ,ẫ,ầ]/ig;
+    let resultWork=str.match(regExpWork).length;
+    console.log(resultWork);
+    let arr=str.split("");
+    console.log(arr);
+    console.log(arr.length);
+    let newTxt=str.replace("javascript","Typescript");
+    console.log(newTxt);
+
+</script>
+</body>
+</html>

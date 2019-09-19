@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let now=new Date();
+    let bornDay=new Date(1997,4,10);
+    let timeLife=now-bornDay;//milliseconds
+    let totalDays=Math.round(timeLife/1000/60/60/24);
+    alert("Some day you life is: "+totalDays);
+    let totalHours=Math.round(timeLife/1000/60/60);
+    alert("Some hours you life is: "+totalHours);
+    let totalMinutes=Math.round(timeLife/1000/60);
+    alert("Some minutes you life is: "+totalMinutes);
+    let totalSeconds=Math.round(timeLife/1000);
+    alert("Some seconds you life is: "+totalSeconds);
+
+</script>
+</body>
+</html>
